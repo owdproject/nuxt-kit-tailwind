@@ -18,10 +18,9 @@
       "default": "./dist/module.mjs"
     },
     "./kit/registerTailwindPath": {
-      "types": "./src/kit/registerTailwindPath.ts",
-      "development": "./src/kit/registerTailwindPath.ts",
-      "import": "./src/kit/registerTailwindPath.ts",
-      "default": "./src/kit/registerTailwindPath.ts"
+      "types": "./dist/kit/registerTailwindPath.d.mts",
+      "import": "./dist/kit/registerTailwindPath.mjs",
+      "default": "./dist/kit/registerTailwindPath.mjs"
     }
   },
   "main": "./dist/module.mjs",
@@ -57,7 +56,7 @@
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": "^3.4.0",
+    "@owdproject/core": ">=4.0.0-alpha.0",
     "nuxt": "^4.4.4"
   }
 }
