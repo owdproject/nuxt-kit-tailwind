@@ -1,6 +1,6 @@
 {
   "name": "@owdproject/kit-tailwind",
-  "version": "0.1.0",
+  "version": "4.0.0-alpha.2",
   "description": "Base Tailwind CSS configuration kit for Open Web Desktop agnostic apps",
   "keywords": [
     "owd-client",
@@ -51,12 +51,12 @@
     "@nuxt/devtools": "^3.2.4",
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.4",
-    "@owdproject/core": "workspace:*",
+    "@owdproject/core": "^4.0.0-alpha.2",
     "nuxt": "^4.4.4",
     "typescript": "~6.0.3"
   },
   "peerDependencies": {
-    "@owdproject/core": ">=4.0.0-alpha.0",
+    "@owdproject/core": "^4.0.0-alpha.2",
     "nuxt": "^4.4.4"
   }
 }
