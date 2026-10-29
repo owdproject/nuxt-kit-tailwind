@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/kit-tailwind",
+  "name": "@owdproject/kit-nuxt-tailwind",
   "version": "4.0.0-alpha.3",
   "description": "Base Tailwind CSS configuration kit for Open Web Desktop agnostic apps",
   "keywords": [

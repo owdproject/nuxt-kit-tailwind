@@ -48,7 +48,7 @@ export function mergeDesktopTailwindContent(
 
   if (nuxt.options.dev && merged.length > 0) {
     console.info(
-      '[desktop-kit-tailwind] Tailwind content:',
+      '[desktop-kit-nuxt-tailwind] Tailwind content:',
       merged.length,
       'paths',
     )
@@ -57,7 +57,7 @@ export function mergeDesktopTailwindContent(
 
 export default defineNuxtModule({
   meta: {
-    name: 'desktop-kit-tailwind',
+    name: 'desktop-kit-nuxt-tailwind',
     configKey: 'kitTailwind',
   },
   async setup(options, nuxt) {
